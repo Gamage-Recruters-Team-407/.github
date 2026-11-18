@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="520" height="520" viewBox="0 0 520 520" role="img" aria-labelledby="title desc">
+<title id="title">Team 407 rotating technology globe</title>
+<desc id="desc">A golden and navy rotating globe surrounded by twelve evenly spaced, self-contained technology logo icons.</desc>
+<defs>
+  <radialGradient id="ocean" cx="32%" cy="25%" r="78%"><stop offset="0" stop-color="#263b64"/><stop offset=".55" stop-color="#101a32"/><stop offset="1" stop-color="#050914"/></radialGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff0b0"/><stop offset=".45" stop-color="#d9a83d"/><stop offset="1" stop-color="#8d5e13"/></linearGradient>
+  <linearGradient id="orbitGlow"><stop offset="0" stop-color="#36d1ff"/><stop offset=".25" stop-color="#a78bfa"/><stop offset=".5" stop-color="#ff6b9d"/><stop offset=".75" stop-color="#ffd166"/><stop offset="1" stop-color="#5ce1a5"/></linearGradient>
+  <clipPath id="globeClip"><circle cx="260" cy="260" r="124"/></clipPath>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<circle cx="260" cy="260" r="207" fill="none" stroke="url(#orbitGlow)" stroke-width="1.5" stroke-opacity=".48" stroke-dasharray="3 8"/>
+<circle cx="260" cy="260" r="190" fill="none" stroke="#d9a83d" stroke-width=".7" stroke-opacity=".2" stroke-dasharray="1 10"/>
+<!-- Twelve equally spaced logos on one circular orbit. All logo artwork is embedded in this SVG. -->
+<g>
+ <animateTransform attributeName="transform" type="rotate" from="0 260 260" to="360 260 260" dur="48s" repeatCount="indefinite"/>
+ <!-- JavaScript -->
+ <g transform="translate(260 53)" aria-label="JavaScript"><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="48s" repeatCount="indefinite"/><circle r="24" fill="#080d19" stroke="#f7df1e" stroke-width="2.5" filter="url(#softGlow)"/><rect x="-15" y="-15" width="30" height="30" rx="3" fill="#f7df1e"/><text x="9" y="10" text-anchor="end" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#111">JS</text></g></g>
+ <!-- HTML5 -->
+ <g transform="translate(363.5 80.7)" aria-label="HTML5"><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="48s" repeatCount="indefinite"/><circle r="24" fill="#080d19" stroke="#e34f26" stroke-width="2.5" filter="url(#softGlow)"/><path d="M-12-15H12L10 12 0 16-10 12Z" fill="#e34f26"/><path d="M-7-9H8L7-5H-3L-2-1H7L6 8 0 11-6 8-7 3H-3L-2 5 2 6 3 3H-6Z" fill="#fff"/></g></g>
+ <!-- CSS3 -->
+ <g transform="translate(439.3 156.5)" aria-label="CSS3"><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="48s" repeatCount="indefinite"/><circle r="24" fill="#080d19" stroke="#1572b6" stroke-width="2.5" filter="url(#softGlow)"/><path d="M-12-15H12L10 12 0 16-10 12Z" fill="#1572b6"/><path d="M-7-9H8L7-5H-3L-3-2H7L6 8 0 11-6 8-6 4H-2L-2 5 2 6 3 2H-7Z" fill="#fff"/></g></g>
+ <!-- Tailwind CSS -->
+ <g transform="translate(467 260)" aria-label="Tailwind CSS"><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="48s" repeatCount="indefinite"/><circle r="24" fill="#080d19" stroke="#38bdf8" stroke-width="2.5" filter="url(#softGlow)"/><path d="M-12-3Q-6-14 0-3Q6 8 12-3Q6 14 0 3Q-6-8-12 3Q-6-14 0-3" fill="none" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/></g></g>
+ <!-- React -->
+ <g transform="translate(439.3 363.5)" aria-label="React"><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="48s" repeatCount="indefinite"/><circle r="24" fill="#080d19" stroke="#61dafb" stroke-width="2.5" filter="url(#softGlow)"/><g fill="none" stroke="#61dafb" stroke-width="2"><ellipse rx="14" ry="6.5"/><ellipse rx="14" ry="6.5" transform="rotate(60)"/><ellipse rx="14" ry="6.5" transform="rotate(120)"/></g><circle r="3" fill="#61dafb"/></g></g>
+ <!-- Node.js -->
+ <g transform="translate(363.5 439.3)" aria-label="Node.js"><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="48s" repeatCount="indefinite"/><circle r="24" fill="#080d19" stroke="#68a063" stroke-width="2.5" filter="url(#softGlow)"/><path d="M0-15 13-7.5 13 7.5 0 15-13 7.5-13-7.5Z" fill="none" stroke="#68a063" stroke-width="3"/><text x="0" y="4" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#8cc84b">JS</text></g></g>
+ <!-- Next.js -->
+ <g transform="translate(260 467)" aria-label="Next.js"><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="48s" repeatCount="indefinite"/><circle r="24" fill="#080d19" stroke="#fff" stroke-width="2.5" filter="url(#softGlow)"/><path d="M-13 10V-10L9 13" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M1-10H13V2" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/></g></g>
+ <!-- MongoDB -->
+ <g transform="translate(156.5 439.3)" aria-label="MongoDB"><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="48s" repeatCount="indefinite"/><circle r="24" fill="#080d19" stroke="#47a248" stroke-width="2.5" filter="url(#softGlow)"/><path d="M0-16C-10-4-9 8 0 15 9 7 10-4 0-16Z" fill="#47a248"/><path d="M0-10V13" stroke="#d9f7d5" stroke-width="1.5"/></g></g>
+ <!-- Python -->
+ <g transform="translate(80.7 363.5)" aria-label="Python"><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="48s" repeatCount="indefinite"/><circle r="24" fill="#080d19" stroke="#ffd43b" stroke-width="2.5" filter="url(#softGlow)"/><path d="M0-15C-9-15-10-10-10-5V0H3V3H-12C-17 3-17 12-9 13H-3V7C-3 2 1 0 6 0H10V-8C10-13 6-15 0-15Z" fill="#3776ab"/><path d="M0 15C9 15 10 10 10 5V0H-3V-3H12C17-3 17-12 9-13H3V-7C3-2-1 0-6 0H-10V8C-10 13-6 15 0 15Z" fill="#ffd43b"/><circle cx="3" cy="-9" r="1.5" fill="#fff"/><circle cx="-3" cy="9" r="1.5" fill="#fff"/></g></g>
+ <!-- GitHub -->
+ <g transform="translate(53 260)" aria-label="GitHub"><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="48s" repeatCount="indefinite"/><circle r="24" fill="#080d19" stroke="#fff" stroke-width="2.5" filter="url(#softGlow)"/><path d="M0-14C-8-14-14-8-14 0-14 6-10 11-5 13-4 13-4 12-4 11V8C-9 9-10 6-10 6-11 4-12 4-12 4-14 3-12 3-12 3-10 3-9 5-9 5-7 8-4 7-4 7-4 6-3 5-2 4-8 3-12 1-12-5-12-7-11-9-9-10-10-12-9-14-9-14-7-14-6-13-5-11-2-12 0-12S3-12 5-11C6-13 8-14 8-14S9-12 8-10C10-9 11-7 11-5 11 1 7 3 2 4 3 5 4 6 4 8V11C4 12 4 13 5 13 10 11 14 6 14 0 14-8 8-14 0-14Z" fill="#fff"/></g></g>
+ <!-- Vercel -->
+ <g transform="translate(80.7 156.5)" aria-label="Vercel"><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="48s" repeatCount="indefinite"/><circle r="24" fill="#080d19" stroke="#fff" stroke-width="2.5" filter="url(#softGlow)"/><path d="M0-15 16 12H-16Z" fill="#fff"/></g></g>
+ <!-- TypeScript -->
+ <g transform="translate(156.5 80.7)" aria-label="TypeScript"><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="48s" repeatCount="indefinite"/><circle r="24" fill="#080d19" stroke="#3178c6" stroke-width="2.5" filter="url(#softGlow)"/><rect x="-15" y="-15" width="30" height="30" rx="3" fill="#3178c6"/><text x="10" y="10" text-anchor="end" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#fff">TS</text></g></g>
+
+</g>
+<!-- Globe -->
+<circle cx="260" cy="260" r="124" fill="url(#ocean)" stroke="url(#gold)" stroke-width="2.5"/>
+<circle cx="260" cy="260" r="130" fill="none" stroke="#d9a83d" stroke-opacity=".3" stroke-width="1"/>
+<g clip-path="url(#globeClip)" fill="none" stroke="url(#gold)" stroke-width="1.5" opacity=".9">
+ <g><animateTransform attributeName="transform" type="rotate" from="0 260 260" to="360 260 260" dur="24s" repeatCount="indefinite"/><ellipse cx="260" cy="260" rx="124" ry="42"/><ellipse cx="260" cy="260" rx="124" ry="82"/><ellipse cx="260" cy="260" rx="124" ry="108"/><ellipse cx="260" cy="260" rx="42" ry="124"/><ellipse cx="260" cy="260" rx="82" ry="124"/><ellipse cx="260" cy="260" rx="108" ry="124"/></g>
+ <path d="M136 260H384M260 136V384" stroke-opacity=".5"/>
+</g>
+<circle cx="260" cy="260" r="124" fill="none" stroke="url(#gold)" stroke-width="2.5"/>
+<ellipse cx="221" cy="187" rx="46" ry="20" fill="#fff4c8" opacity=".10" transform="rotate(-32 221 187)" filter="url(#glow)"/>
+<circle cx="260" cy="260" r="4" fill="#fff0b0" filter="url(#glow)"/>
+</svg>
