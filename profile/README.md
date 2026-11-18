@@ -12,11 +12,11 @@ We are a collaborative software development team committed to building secure, s
 
 - **Code Quality:** Write clean, readable, reusable, and maintainable code.
 - **Git & GitHub:** Follow proper branching, meaningful commits, and Pull Request workflows.
-- **Code Reviews:** Review contributions and obtain approval before merging into protected branches.
+- **Code Reviews:** Obtain approval before merging into protected branches.
 - **Security First:** Never expose passwords, API keys, GitHub tokens, or confidential information.
 - **Testing:** Test your changes before submitting contributions.
 - **Documentation:** Maintain clear and updated project documentation.
-- **Teamwork:** Communicate professionally, respect team members, and take responsibility for assigned tasks.
+- **Teamwork:** Communicate professionally and respect team members.
 - **Professionalism:** Follow project guidelines, deadlines, and organizational policies.
 
 ## Development Rules
