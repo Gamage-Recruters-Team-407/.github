@@ -1,8 +1,14 @@
 # GAMAGE RECRUITERS – TEAM 407
 
-![Team 407](https://github.com/user-attachments/assets/3ec1901a-0ad5-46ea-8a39-579f55a213f8)
+<p align="center">
+  <img src="./team407-globe.svg" alt="Team 407 Rotating Technology Globe" width="300" />
+</p>
+
+<p align="center">
 
 **Building Quality Software. Working as One Team.**
+
+</p>
 
 Welcome to the official GitHub Organization of **Gamage Recruiters – Team 407**.
 
